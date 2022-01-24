@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function DetailedProject() {
+export default function ProjectDetails() {
   return (
     <>
       This is the DetailedProject page. You will see more details of the project

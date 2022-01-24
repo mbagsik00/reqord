@@ -1,6 +1,6 @@
 # Reqord (Requirements Record)
 
-Requirements record or Reqord is a web application use to document business requirements. In addition, business rules, decisions made, and exceptions are taken into account. It has a feature to auto generate some documents based on the requirements e.g (API Documentation, User manual, Data Flow Diagram, and many more). 
+Requirements record or Reqord is a web application use to document project features and requirements. In addition, business rules, decisions made, and exceptions are taken into account. It has a feature to auto generate some documents based on the requirements e.g (API Documentation, User manual, Data Flow Diagram, and many more). 
 
 [![License](https://camo.githubusercontent.com/11ead5f9f63a32c56b6558ec9cbfb25540fd265b6fbab25b51cb6925d2519ddb/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f6c2f657870726573732e737667)](https://github.com/TarikHuber/react-most-wanted/master/LICENSE) [![Code Style](https://camo.githubusercontent.com/c0486311910977832125780d8ef9ac681614939bd1b9328678007156a4648896/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f64655f7374796c652d70726574746965722d6666363962342e7376673f7374796c653d666c61742d737175617265)](https://github.com/prettier/prettier)
 
@@ -12,7 +12,7 @@ Install dependencies
 npm install
 ```
 
-Run the application
+Running Reqord
 
 ```sh
 npm run start
