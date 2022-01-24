@@ -20,7 +20,7 @@ npm run start
 
 ## Contributing
 
-The applcation is still at the early age and we really appreciate any contribution. If you want to contribute you can reach me at mbagsik00@gmail.com and I'm happy to talk about it. I do have a lot of ideas for this application that I can share.
+The applcation is still at the early age and we really appreciate any contribution. If you want to contribute you can reach me at my email found in my [Github Bio](https://github.com/mbagsik00). I do have a lot of ideas for this application that I can share so please don't hesitate to message me.
 
 ## License
 
