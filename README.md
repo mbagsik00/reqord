@@ -1,46 +1,27 @@
-# Getting Started with Create React App
+# Reqord (Requirements Record)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Requirements record or Reqord is a web application use to document business requirements. In addition, business rules, decisions made, and exceptions are taken into account. It has a feature to auto generate some documents based on the requirements e.g (API Documentation, User manual, Data Flow Diagram, and many more). 
 
-## Available Scripts
+[![License](https://camo.githubusercontent.com/11ead5f9f63a32c56b6558ec9cbfb25540fd265b6fbab25b51cb6925d2519ddb/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f6c2f657870726573732e737667)](https://github.com/TarikHuber/react-most-wanted/master/LICENSE) [![Code Style](https://camo.githubusercontent.com/c0486311910977832125780d8ef9ac681614939bd1b9328678007156a4648896/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f64655f7374796c652d70726574746965722d6666363962342e7376673f7374796c653d666c61742d737175617265)](https://github.com/prettier/prettier)
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+Install dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```sh
+npm install
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Run the application
 
-### `npm test`
+```sh
+npm run start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributing
 
-### `npm run build`
+The applcation is still at the early age and we really appreciate any contribution. If you want to contribute you can reach me at mbagsik00@gmail.com and I'm happy to talk about it. I do have a lot of ideas for this application that I can share.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+ This project uses the [MIT license](https://github.com/mbagsik00/reqord/blob/main/LICENSE).
