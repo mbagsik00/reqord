@@ -109,7 +109,7 @@ type Props = {
   toggleDrawer: () => void;
 };
 
-export default function Sidebar({ open, toggleDrawer }: Props) {
+const Sidebar = ({ open, toggleDrawer }: Props) => {
   return (
     <Drawer variant="permanent" open={open}>
       <Toolbar
@@ -130,4 +130,6 @@ export default function Sidebar({ open, toggleDrawer }: Props) {
       <List>{secondaryListItems}</List>
     </Drawer>
   );
-}
+};
+
+export default Sidebar;

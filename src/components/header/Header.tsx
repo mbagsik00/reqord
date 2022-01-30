@@ -36,7 +36,7 @@ type Props = {
   toggleDrawer: () => void;
 };
 
-export default function Header({ open, toggleDrawer }: Props) {
+const Header = ({ open, toggleDrawer }: Props) => {
   return (
     <AppBar position="absolute" open={open}>
       <Toolbar
@@ -67,4 +67,6 @@ export default function Header({ open, toggleDrawer }: Props) {
       </Toolbar>
     </AppBar>
   );
-}
+};
+
+export default Header;

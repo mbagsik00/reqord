@@ -5,7 +5,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Container from '@mui/material/Container';
 import Sidebar from '../sidebar/Sidebar';
-import { Copyright } from '../copyright/Copyright';
+import Copyright from '../copyright/Copyright';
 import Header from '../header/Header';
 
 const mdTheme = createTheme();
@@ -14,7 +14,7 @@ type Props = {
   children?: React.ReactNode;
 };
 
-export default function Layout({ children }: Props) {
+const Layout = ({ children }: Props) => {
   const [open, setOpen] = useState(true);
   const toggleDrawer = () => {
     setOpen(!open);
@@ -26,7 +26,7 @@ export default function Layout({ children }: Props) {
         <CssBaseline />
 
         {/* Header */}
-        <Header open={open} toggleDrawer={toggleDrawer}/>
+        <Header open={open} toggleDrawer={toggleDrawer} />
 
         {/* Sidebar Navigation */}
         <Sidebar open={open} toggleDrawer={toggleDrawer} />
@@ -52,4 +52,6 @@ export default function Layout({ children }: Props) {
       </Box>
     </ThemeProvider>
   );
-}
+};
+
+export default Layout;

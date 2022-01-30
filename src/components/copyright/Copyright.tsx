@@ -6,7 +6,7 @@ type Props = {
   sx: any;
 };
 
-export function Copyright({ sx }: Props) {
+const Copyright = ({ sx }: Props) => {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...sx}>
       {'Copyright © '}
@@ -17,4 +17,6 @@ export function Copyright({ sx }: Props) {
       {'.'}
     </Typography>
   );
-}
+};
+
+export default Copyright;
