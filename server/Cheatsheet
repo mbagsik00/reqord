@@ -1,0 +1,13 @@
+Install CLI
+$ npm install -f @nestjs/cli
+
+Create new project
+nest new <project_name>
+
+Create new module
+$ nest g module users
+$ nest g controller users
+$ nest g service users
+
+Install swaggerUI
+$ npm install --save @nestjs/swagger swagger-ui-express
