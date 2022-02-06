@@ -1,7 +1,17 @@
 import { Controller, Get, Param } from '@nestjs/common';
+import { Crud, CrudController } from '@nestjsx/crud';
+import { Project } from './project.entity';
+import { ProjectsService } from './projects.service';
 
+@Crud({
+  model: {
+    type: Project
+  }
+})
 @Controller('projects')
-export class ProjectsController {
+export class ProjectsController implements CrudController<Project> {
+  constructor(public service: ProjectsService) {}
+
   // To get request details
   // @Request() req:Request
 
@@ -15,13 +25,13 @@ export class ProjectsController {
   // @Get('active')
   // Output: projects/active
 
-  @Get()
-  getProjects(): any {
-    return 'list of projects';
-  }
+  // @Get()
+  // getProjects(): any {
+  //   return 'list of projects';
+  // }
 
-  @Get(':id')
-  getProjectById(@Param('id') id: string): any {
-    return `project with id ${id}`;
-  }
+  // @Get(':id')
+  // getProjectById(@Param('id') id: string): any {
+  //   return `project with id ${id}`;
+  // }
 }

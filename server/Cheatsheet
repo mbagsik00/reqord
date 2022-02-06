@@ -15,3 +15,14 @@ $ nest g service users
 
 Install swaggerUI
 $ npm install --save @nestjs/swagger swagger-ui-express
+
+NextJS Crud
+$ npm install --save @nestjs/typeorm typeorm
+$ npm i @nestjsx/crud class-transformer class-validator
+$ npm i @nestjsx/crud-typeorm
+
+Notes:
+1. TypeOrm automatically create database table and columns
+   1. How to deal with startup
+   2. Database migration
+   3. Database username and passwor
