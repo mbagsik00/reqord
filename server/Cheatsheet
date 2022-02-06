@@ -4,6 +4,10 @@ $ npm install -f @nestjs/cli
 Create new project
 nest new <project_name>
 
+CRUD generator
+Generates all the NestJS building blocks (module, service, controller classes) but also an entity class, DTO classes as well as the testing files
+$ nest g resource users
+
 Create new module
 $ nest g module users
 $ nest g controller users
