@@ -25,4 +25,4 @@ Notes:
 1. TypeOrm automatically create database table and columns
    1. How to deal with startup
    2. Database migration
-   3. Database username and passwor
+   3. Database username and password
