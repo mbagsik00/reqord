@@ -18,9 +18,9 @@ Running Reqord
 npm run start
 ```
 
-## Contributing
+<!-- ## Contributing
 
-The applcation is still at the early age and we really appreciate any contribution. If you want to contribute you can reach me at my email found in my [Github Bio](https://github.com/mbagsik00). I do have a lot of ideas for this application that I can share so please don't hesitate to message me.
+The applcation is still at the early age and we really appreciate any contribution. If you want to contribute you can reach me at my email found in my [Github Bio](https://github.com/mbagsik00). We do have a lot of ideas for this application that we can share so please don't hesitate to reach out. -->
 
 ## License
 
